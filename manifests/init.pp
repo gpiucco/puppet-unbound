@@ -88,7 +88,7 @@ class unbound (
   Optional[String[1]]                           $version                         = undef,
   Boolean                                       $hide_trustanchor                = true,   # version 1.6.2
   Array[Integer]                                $target_fetch_policy             = [],
-  Boolean                                       $harden_short_bufsize            = false,
+  Boolean                                       $harden_short_bufsize            = true,
   Boolean                                       $harden_large_queries            = false,
   Boolean                                       $harden_glue                     = true,
   Boolean                                       $harden_dnssec_stripped          = true,
